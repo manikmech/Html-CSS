@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+*{
+box-sizing:border-box;
+}
+body{
+margin:0px 2px;background-color:red;
+}
+.header{
+width:100%;
+text-align:center;
+background-color:pink;
+padding:5px;
+}
+.nav{
+display:inline-block;
+width:100%;
+background-color:black;
+color:white;
+
+}
+.nav a{
+padding:15px 20px;
+float:left;
+}
+.nav a:hover{
+background-color:red;
+}
+
+.content{
+width:100%;
+padding:10px;background-color:lightgrey;
+display:inline-block;
+}
+.content .left{
+width:50%;
+float:left;
+text-align:justify;
+padding:10px;
+}
+.content .right{
+width:50%;
+float:left;
+text-align:justify;
+padding:10px;
+}
+.content :after{
+content:"";
+display:table;
+clear:both;
+}
+.clear{
+clear:both}
+.second{
+display:flex;
+background-color:gold;
+
+}
+.con{
+padding:10px;
+border:1px solid red;
+border-radius:1em;
+text-align:justify;
+}
+.con:hover{
+background-color:DarkRed;
+color:gold;
+font-style:gambria;
+box-shadow:0px 0px 0px 0px 3px black
+}
+</style>
+</head>
+<body>
+<div class="header"><h1>This is header area</h1></div>
+<div class="nav">
+<a>Home</a><a>About</a><a>Run</a><a>Contact</a>
+</div>
+<div class="content">
+<div class="left">
+   <h1>London</h1>
+    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+    <p>Standing on thcity in the  United Kingdom, with a metropolitan area of over 13e River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+</div>
+<div class="right">
+    <h1>London</h1>
+    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+</div>
+</div>
+<br class="clear">
+<div class="second">
+
+<div class="con Con1">  
+   <h1>London1</h1>
+    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p></div>
+<div class="con Con3">   <h1>London2</h1>
+    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p></div>
+<div class="con Con2">  
+<h1>London3</h1>
+    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p></div>
+</div>
+</body>
+</html>
